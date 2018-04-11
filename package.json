@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ST2DE/week2-homework-group-ray-team/issues"
   },
-  "homepage": "https://github.com/ST2DE/week2-homework-group-ray-team#readme"
+  "homepage": "https://github.com/ST2DE/week2-homework-group-ray-team#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.0"
+  }
 }
