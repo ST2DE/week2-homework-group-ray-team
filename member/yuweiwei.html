@@ -1,120 +1,98 @@
 <!doctype html>
 <html lang="tw">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Ray-team-Homework</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="../public/css/bootstrap.min.css" rel="stylesheet">
-  <link href="../public/css/styles.css" rel="stylesheet">
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>陳昱偉 - Ray Team Homework</title>
+    <!-- Bootstrap core CSS -->
+    <link href="../public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../public/css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="../public/js/public.js"></script>
 </head>
+
 <body>
-
-  <header>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-5">
-      <a class="navbar-brand" href="./index.html">Ray-team-Homework</a>
-      <div class="navbar-collapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item ">
-            <a class="nav-link" href="../index.html">Home</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="../yuweiwei.html">陳昱偉</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">組員</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">組員</a>
-          </li>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> <a class="navbar-brand" href="../index.html">Ray Team Homework</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"> <a class="nav-link" href="../index.html">Home</a> </li>
+                    <li class="nav-item"> <a class="nav-link active" href="#">陳昱偉</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="caroline.html">李若彤</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">組員</a> </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+    <div class="container">
+        <h2>Step 1. Create a Repository</h2>
+        <p>A <strong>repository</strong> is usually used to organize a single project. Repositories can contain folders and files, images, videos, spreadsheets, and data sets – anything your project needs. We recommend including a <em>README</em>, or a file with information about your project. GitHub makes it easy to add one at the same time you create your new repository. <em>It also offers other common options such as a license file.</em></p>
+        <p>Your <code class="highlighter-rouge">hello-world</code> repository can be a place where you store ideas, resources, or even share and discuss things with others.</p>
+        <h3>To create a new repository</h3>
+        <ol>
+            <li>In the upper right corner, next to your avatar or identicon, click <span class="octicon octicon-plus"></span> and then select <strong>New repository</strong>.</li>
+            <li>Name your repository <code class="highlighter-rouge">hello-world</code>.</li>
+            <li>Write a short description.</li>
+            <li>Select <strong>Initialize this repository with a README</strong>.</li>
+        </ol>
+        <p>Click <strong>Create repository</strong>. <img class="emoji" title=":tada:" alt=":tada:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f389.png" height="20" width="20"></p>
+        <p>
+            <a id="branch" title="Create a Branch" class="toc-item"></a>
+        </p>
+        <h2>Step 2. Create a Branch</h2>
+        <p><strong>Branching</strong> is the way to work on different versions of a repository at one time.</p>
+        <p>By default your repository has one branch named <code class="highlighter-rouge">master</code> which is considered to be the definitive branch. We use branches to experiment and make edits before committing them to <code class="highlighter-rouge">master</code>.</p>
+        <p>When you create a branch off the <code class="highlighter-rouge">master</code> branch, you’re making a copy, or snapshot, of <code class="highlighter-rouge">master</code> as it was at that point in time. If someone else made changes to the <code class="highlighter-rouge">master</code> branch while you were working on your branch, you could pull in those updates.</p>
+        <p>This diagram shows:</p>
+        <ul>
+            <li>The <code class="highlighter-rouge">master</code> branch</li>
+            <li>A new branch called <code class="highlighter-rouge">feature</code> (because we’re doing ‘feature work’ on this branch)</li>
+            <li>The journey that <code class="highlighter-rouge">feature</code> takes before it’s merged into <code class="highlighter-rouge">master</code> </li>
         </ul>
-      </div>
-    </nav>
-  </header>
-
-  <div class="container">
-
-
-    <h2>Step 1. Create a Repository</h2>
-
-    <p>A <strong>repository</strong> is usually used to organize a single project. Repositories can contain folders and files, images, videos, spreadsheets, and data sets – anything your project needs. We recommend including a <em>README</em>, or a file with information about your project. GitHub makes it easy to add one at the same time you create your new repository. <em>It also offers other common options such as a license file.</em></p>
-
-    <p>Your <code class="highlighter-rouge">hello-world</code> repository can be a place where you store ideas, resources, or even share and discuss things with others.</p>
-
-    <h3>To create a new repository</h3>
-
-    <ol>
-      <li>In the upper right corner, next to your avatar or identicon, click <span class="octicon octicon-plus"></span> and then select <strong>New repository</strong>.</li>
-      <li>Name your repository <code class="highlighter-rouge">hello-world</code>.</li>
-      <li>Write a short description.</li>
-      <li>Select <strong>Initialize this repository with a README</strong>.</li>
-    </ol>
-    <p>Click <strong>Create repository</strong>. <img class="emoji" title=":tada:" alt=":tada:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f389.png" height="20" width="20"></p>
-
-    <p><a id="branch" title="Create a Branch" class="toc-item"></a></p>
-
-    <h2>Step 2. Create a Branch</h2>
-
-    <p><strong>Branching</strong> is the way to work on different versions of a repository at one time.</p>
-
-    <p>By default your repository has one branch named <code class="highlighter-rouge">master</code> which is considered to be the definitive branch. We use branches to experiment and make edits before committing them to <code class="highlighter-rouge">master</code>.</p>
-
-    <p>When you create a branch off the <code class="highlighter-rouge">master</code> branch, you’re making a copy, or snapshot, of <code class="highlighter-rouge">master</code> as it was at that point in time. If someone else made changes to the <code class="highlighter-rouge">master</code> branch while you were working on your branch, you could pull in those updates.</p>
-
-    <p>This diagram shows:</p>
-
-    <ul>
-      <li>The <code class="highlighter-rouge">master</code> branch</li>
-      <li>A new branch called <code class="highlighter-rouge">feature</code> (because we’re doing ‘feature work’ on this branch)</li>
-      <li>The journey that <code class="highlighter-rouge">feature</code> takes before it’s merged into <code class="highlighter-rouge">master</code>
-      </li>
-    </ul>
-
-    <p>Have you ever saved different versions of a file? Something like:</p>
-
-    <ul>
-      <li><code class="highlighter-rouge">story.txt</code></li>
-      <li><code class="highlighter-rouge">story-joe-edit.txt</code></li>
-      <li><code class="highlighter-rouge">story-joe-edit-reviewed.txt</code></li>
-    </ul>
-
-    <p>Branches accomplish similar goals in GitHub repositories.</p>
-
-    <p>Here at GitHub, our developers, writers, and designers use branches for keeping bug fixes and feature work separate from our <code class="highlighter-rouge">master</code> (production) branch. When a change is ready, they merge their branch into <code class="highlighter-rouge">master</code>.</p>
-
-    <h3>To create a new branch</h3>
-
-    <ol>
-      <li>Go to your new repository <code class="highlighter-rouge">hello-world</code>.</li>
-      <li>Click the drop down at the top of the file list that says <strong>branch: master</strong>.</li>
-      <li>Type a branch name, <code class="highlighter-rouge">readme-edits</code>, into the new branch text box.</li>
-      <li>Select the blue <strong>Create branch</strong> box or hit “Enter” on your keyboard.</li>
-    </ol>
-
-    <p>Now you have two branches, <code class="highlighter-rouge">master</code> and <code class="highlighter-rouge">readme-edits</code>. They look exactly the same, but not for long! Next we’ll add our changes to the new branch.</p>
-
-    <p><a id="commit" title="Make a Commit" class="toc-item"></a></p>
-
-    <h2>Step 3. Make and commit changes</h2>
-
-    <p>Bravo! Now, you’re on the code view for your <code class="highlighter-rouge">readme-edits</code> branch, which is a copy of <code class="highlighter-rouge">master</code>. Let’s make some edits.</p>
-
-    <p>On GitHub, saved changes are called <em>commits</em>. Each commit has an associated <em>commit message</em>, which is a description explaining why a particular change was made. Commit messages capture the history of your changes, so other contributors can understand what you’ve done and why.</p>
-  </div>
-
-  <!-- FOOTER -->
-  <hr class="featurette-divider">
-  <footer class="container">
-    <p class="float-right"><a href="#">Back to top</a></p>
-    <p>Ray team &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-  </footer>
-</main>
-
-</main>
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-
+        <p>Have you ever saved different versions of a file? Something like:</p>
+        <ul>
+            <li><code class="highlighter-rouge">story.txt</code></li>
+            <li><code class="highlighter-rouge">story-joe-edit.txt</code></li>
+            <li><code class="highlighter-rouge">story-joe-edit-reviewed.txt</code></li>
+        </ul>
+        <p>Branches accomplish similar goals in GitHub repositories.</p>
+        <p>Here at GitHub, our developers, writers, and designers use branches for keeping bug fixes and feature work separate from our <code class="highlighter-rouge">master</code> (production) branch. When a change is ready, they merge their branch into <code class="highlighter-rouge">master</code>.</p>
+        <h3>To create a new branch</h3>
+        <ol>
+            <li>Go to your new repository <code class="highlighter-rouge">hello-world</code>.</li>
+            <li>Click the drop down at the top of the file list that says <strong>branch: master</strong>.</li>
+            <li>Type a branch name, <code class="highlighter-rouge">readme-edits</code>, into the new branch text box.</li>
+            <li>Select the blue <strong>Create branch</strong> box or hit “Enter” on your keyboard.</li>
+        </ol>
+        <p>Now you have two branches, <code class="highlighter-rouge">master</code> and <code class="highlighter-rouge">readme-edits</code>. They look exactly the same, but not for long! Next we’ll add our changes to the new branch.</p>
+        <p>
+            <a id="commit" title="Make a Commit" class="toc-item"></a>
+        </p>
+        <h2>Step 3. Make and commit changes</h2>
+        <p>Bravo! Now, you’re on the code view for your <code class="highlighter-rouge">readme-edits</code> branch, which is a copy of <code class="highlighter-rouge">master</code>. Let’s make some edits.</p>
+        <p>On GitHub, saved changes are called <em>commits</em>. Each commit has an associated <em>commit message</em>, which is a description explaining why a particular change was made. Commit messages capture the history of your changes, so other contributors can understand what you’ve done and why.</p>
+    </div>
+        </section>
+    
+    
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Copy right © 2018 Developer by ST2DE Ray Team.</p>
+                </div>
+            </div>
+            <!-- end .row -->
+        </div>
+    </footer>
 </body>
+
 </html>
