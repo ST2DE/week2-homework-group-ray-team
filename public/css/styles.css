@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
-body {
-  font: 1.2rem "cwTeXFangSong", Helvetica, Arial, sans-serif;
-}
 
+*{
+  font-family: "cwTeXFangSong", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
 
 a{
     color: inherit;
