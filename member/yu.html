@@ -37,6 +37,60 @@
             <h2>Note</h2>
             <h1>努力編寫</h1>
             <h3>建置中</h3>
+
+            <h1>Git 教學</h1>
+            <p>Git是什麼？ git是一種版本控制系統，同樣為版本控制的還有SVN 透過這樣的版本控制系統，可以清楚的記錄每個檔案是誰在什麼時候加進來、什麼時候被修改或刪除。</p>
+        <ol>
+            <li>建立新的目錄，並且Git初始化</li>           
+            <li>mkdir 資料夾名稱</li>
+            <li>cd 資料夾名稱</li>
+            <li><code>git init</code></li>
+            <li><code>git clone </code>你的專案網址</li>
+        </ol>
+        <p>好了之後輸入</p>
+        
+        <li>查看目前檔案的狀態</li>
+        <code>git status</code>
+        <li>將檔案提交入Repository</li>
+        <code>git commit -m "解說文字" </code>
+        <li>把所有更改過的東西都 add </li>
+        <code>git add .</code>
+        <p>提交完之後再用git status看一次，你的狀態會變成Changes to be committed</p>
+        <li>推送到Github上面</li>
+        <code>git push</code>
+        <p></p>
+        <h3>終端機文件修改常用指令</h3>
+        <ol>
+            <li> :i 編輯文件 </li>
+            <li> :w 存擋 </li>
+            <li>:q 離開 </li>
+            <li> :wq 存檔離開</li>
+        </ol>
+
+
+
+
+git log 紀錄檔/git diff 比較
+git log//按q可跳出瀏覽
+
+git rm
+git rm
+將檔案刪除
+
+git mv
+git mv 檔案名 資料夾
+搬移檔案，這樣就不用add或rm檔案了
+
+git rebase
+git rebase
+將不同分支上的差異點合併成一個新的commit
+
+git config
+git config --global
+設定初始參數
+
+git config --list
+可查看設定的參數
             
             
         </div>
