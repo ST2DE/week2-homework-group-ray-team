@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
 body {
-  font-size: 1.2rem;
-    font-family:  "cwTeXFangSong", Helvetica, Arial, sans-serif;
+  font: 1.2rem "cwTeXFangSong", Helvetica, Arial, sans-serif;
 }
 
 
@@ -45,7 +44,9 @@ section {
 
 
 /*member*/
-
+#member a{
+    color: #fff;
+}
 
 .card-img-overlay{
     display: inline;
