@@ -58,6 +58,8 @@
         <p>提交完之後再用git status看一次，你的狀態會變成Changes to be committed</p>
         <li>推送到Github上面</li>
         <code>git push</code>
+        <li>同步遠端檔案</li>
+        <code>git pull master origin</code>
         <li>比較文件或commit間修改的差異</li>
 		<code>git log </code>
 		<li>列出該次commit的修改內容</li>
@@ -68,7 +70,15 @@
 		<code>git mv 檔案名 資料夾</code>
         <li>git rebase</li>
 		<code>將不同分支上的差異點合併成一個新的commit</code>
+        <p></p>
 
+        <h3>git rebase與git merge差異</h3> 
+        <p>他們作的事情一樣，都是合併，只是合併的過程不一樣</p>
+        <code>git rebase</code>
+        <code>git merge</code>
+        <p></p>
+        <h4>merge: 兩分支會在master中有一個新的節點，現有的分支不會作改變</h4>
+        <h4>rebase: 直接在master上接上你的分支</h4>
         <p></p>
         <h3>終端機文件修改常用指令</h3>
         <ol>
@@ -80,7 +90,8 @@
             
         </div>
             </section>
-    
+        
+           
     
     <!-- FOOTER -->
     <footer>
